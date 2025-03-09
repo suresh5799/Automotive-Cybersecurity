@@ -40,7 +40,7 @@ ADMINS = {"admin": "admin"}
 
 # Function to set background image from local folder
 def set_background():
-    image_path = "images/auti1.jpg"
+    image_path = "new_drive/images/auti1.jpg"
     with open(image_path, "rb") as f:
         encoded_string = base64.b64encode(f.read()).decode()
     page_bg = f"""
