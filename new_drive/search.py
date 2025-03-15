@@ -7,7 +7,7 @@ from fpdf import FPDF
 import streamlit_scrollable_textbox as stx
 import re                    #Match only top-level sections like "1.,2...."
 import time
-import fitz
+
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
